@@ -1,0 +1,13 @@
+name: UpdateCheckerExample
+main: de.jeff_media.updatecheckerexample.Main
+version: 1.0
+commands:
+  updatechecker:
+    description: "Checks for updates"
+    usage: "/<command> [players|all]"
+    permission: updatechecker
+permissions:
+  updatechecker:
+    description: "Allows to use the command /updatechecker"
+  updatechecker.onjoin:
+    description: "Sends a message on join when a new update is available"
