@@ -1,6 +1,7 @@
-name: UpdateCheckerExample
-main: de.jeff_media.updatecheckerexample.Main
+name: UpdateCheckerExamplePlugin
+main: your.username.pluginname.ExamplePlugin
 version: 1.0
+api-version: 1.13
 commands:
   updatechecker:
     description: "Checks for updates"
